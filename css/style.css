@@ -1,0 +1,89 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --filter-button-color: #f5f4fa;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo .logo-header .logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo {
+  color: var(--accent-text-color);
+}
+
+.logo-footer {
+  color: #000000;
+
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.site-nav a {
+  color: #000000;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-text-color);
+}
+
+/* nav-title */
+.nav-title list .nav-bar {
+  color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+}
+
+.filter-button {
+  background-color: var(--filter-button-color);
+  color: var(--filter-button-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-text-color);
+}
+
+.features-title {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87em;
+}
+
+/* Buttons */
+.filter-button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
+}
+
+.filter-button {
+  font-family: inherit;
+}
+
+.features-list {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
